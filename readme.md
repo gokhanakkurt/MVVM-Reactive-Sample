@@ -1,4 +1,4 @@
-MVVM - Reactive Sample
+MVVM - ReactiveSwift Sample
 ========================
 This is a sample project built with Model-View-ViewModel(MVVM) architecture. 
 
