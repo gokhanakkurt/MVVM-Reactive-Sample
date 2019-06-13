@@ -11,7 +11,7 @@ import ReactiveCocoa
 
 class HomeViewController: UIViewController {
     
-    internal var viewModel: HomeViewModel!
+    var viewModel: HomeViewModel!
     
     @IBOutlet var tableView: UITableView!
     
@@ -20,6 +20,10 @@ class HomeViewController: UIViewController {
         setupTableView()
         bindEvents()
     }
+}
+
+// MARK: - Mix
+extension HomeViewController {
     
     func setupTableView() {
         self.tableView.delegate = self
@@ -63,12 +67,14 @@ class HomeViewController: UIViewController {
     }
 }
 
+// MARK: - UITableViewDelegate
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
+// MARK: - UITableViewDataSource
 extension HomeViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
