@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.8.2)
+  - ReactiveCocoa (10.0.0):
+    - ReactiveSwift (~> 6.0)
+  - ReactiveSwift (6.0.0)
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
+  - SwiftyJSON (5.0.0)
+  - Swinject (2.6.1)
+  - SwinjectStoryboard (2.2.0):
+    - Swinject (~> 2.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - ReactiveCocoa
+  - ReactiveSwift
+  - Reusable
+  - SwiftyJSON
+  - Swinject
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Reusable
+    - SwiftyJSON
+    - Swinject
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  ReactiveCocoa: 6d4c37ba236f5d9a7a55b2172cd09f19ba85f574
+  ReactiveSwift: 24b7ed245617bbfd30ee0c87779b6c64ac1b4518
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Swinject: b624462f47b635a64f89a60a247baa5fccec14e1
+  SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
+
+PODFILE CHECKSUM: c610813ade6d1ab4b6525fe51252379a56caf2c8
+
+COCOAPODS: 1.7.1

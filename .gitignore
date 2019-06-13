@@ -1,0 +1,38 @@
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+*.dsym
+*.dsym.zip
+*.zip
+*.ipa
+DerivedData
+.idea/
+# Pods - for those of you who use CocoaPods
+Pods/
+
+# Newrelic dsym results
+upload_dsym_results
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
