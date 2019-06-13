@@ -4,7 +4,7 @@ This is a sample project built with Model-View-ViewModel(MVVM) architecture.
 
 App basically retrieves data from an API by using `ReactiveSwift` signal and populates UITableView with received data. Dendencies are also resolved by using `Swinject`
 
-![MVVM Reactive Sample](https://pasteboard.co/IjgfLGO.png "MVVM - Reactive")
+![MVVM Reactive Sample](https://imgur.com/3kd08S5)
 
 # Requirements
 1. iOS 10.0+
@@ -32,7 +32,7 @@ App basically retrieves data from an API by using `ReactiveSwift` signal and pop
 
 `User` stands for User model for the project under `Model` folder.
 
-Also, dependency are injected at `AppDelegate.swift` file. Please review that part too.
+Also, dependency are injected at `AppDelegate` file. Please review that part too.
 
 
 ## Used Dependencies
