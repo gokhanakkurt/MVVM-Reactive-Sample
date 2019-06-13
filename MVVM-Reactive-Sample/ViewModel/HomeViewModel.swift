@@ -26,17 +26,19 @@ class HomeViewModel {
     
     func fetchUsers() {
         self.isLoading.value = true
-        self.service.fetchUsers { [weak self] (response, error) in
-            if let anError = error {
-                self?.error.value = anError
-            }
-            
-            if let users = response {
-                self?.viewModels.value = users.compactMap{return UserViewModel(user: $0)} // convert to user cell models
-            }
-            
-            self?.isLoading.value = false // set loading false
-        }
+        
+        self.service
+            .fetchUsers()
+            .start(Signal<[User], Error>.Observer (value: { [weak self] values in
+                // assign mutable property
+                self?.viewModels.value = values.compactMap{return UserViewModel(user: $0)} // convert to user cell models
+                self?.isLoading.value = false // done
+                
+            }, failed: { [weak self] error in
+                // failed or an error occured
+                self?.error.value = error
+                self?.isLoading.value = false // done
+            }))
     }
     
 }
