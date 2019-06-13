@@ -37,7 +37,7 @@ Also, dependency are injected at `AppDelegate` file. Please review that part too
 
 ## Used Dependencies
 
-I used following open source frameworks for purposes:
+I used following open source frameworks and libraries:
 
 1. [Alamofire](https://github.com/Alamofire/Alamofire)
 
