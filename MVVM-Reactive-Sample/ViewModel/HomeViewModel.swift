@@ -18,7 +18,7 @@ class HomeViewModel {
     
     var viewModels: MutableProperty<[UserViewModel]> = MutableProperty([UserViewModel]())
     
-    var service: UserService
+    private var service: UserService
     
     init(service: UserService) {
         self.service = service
