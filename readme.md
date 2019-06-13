@@ -39,29 +39,15 @@ Also, dependency are injected at `AppDelegate` file. Please review that part too
 
 I used following open source frameworks for purposes:
 
-### Alamofire
-Networking [See](https://github.com/Alamofire/Alamofire)
+1. [Alamofire](https://github.com/Alamofire/Alamofire)
 
-### SwiftyJSON
-Decoding JSON response. [See](https://github.com/SwiftyJSON/SwiftyJSON)
+2. [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
-### ReactiveSwift
-Binding/Signalign events. [See](https://github.com/ReactiveCocoa/ReactiveSwift)
+3. [ReactiveSwift](https://github.com/ReactiveCocoa/ReactiveSwift)
 
-### Swinject && SwinjectStoryboard
-Dependency injection. [See](https://github.com/Swinject/Swinject)
+4. [Swinjec](https://github.com/Swinject/Swinject)
 
-### Reusable
-Reusing views and arbitrary loads for XIB files. [See](https://github.com/AliSoftware/Reusable)
-
-# Testing App
-There are two different folders within the project. These are `MVVM-Reactive-SampleTests` and `MVVM-Reactive-SampleUITests`
-
-### Unit Tests
-Unit tests resides in `MVVM-Reactive-SampleTests` folder structure. 
-
-### UI Tests
-UI tests reside just under `MVVM-Reactive-SampleUITests` folder.
+5. [Reusable](https://github.com/AliSoftware/Reusable)
 
 # Cocoapods
 Cocoapods is used as dependency manager to manage 3rd party libraries and resources. See also [Cocoapods](http://cocoapods.org)
