@@ -11,7 +11,7 @@ import SwiftyJSON
 
 class UserService {
     
-    var url: String
+    private var url: String
     
     init(url: String) {
         self.url = url
